@@ -1,0 +1,222 @@
+* Large desktop */
+@media (min-width: 1200px) { 
+    body    {
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: green;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    body    {
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: purple;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    body    {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: blue;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    body    {
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: red;
+    }
+}
+/*Page écran*/
+body {
+background-color:black;
+margin:0px;
+padding:0px;
+text-align: center;
+}
+#wrap{ /*#Set à reference à un id de la page web*/ 
+   margin: auto; /*#Centre automatiqument la section wrap dans l'ecran*/
+   padding: 0px;
+   max-width: 960px;
+   color:green;
+    }
+header {
+  background-color: #76abd7;
+
+    }
+    header h1 {
+        color: Black;
+        font-family: "Comic sans ms",Tahoma,Verdana;
+        font-size: 4em;
+        margin: 0px;
+        padding: 5%;
+    }
+
+    nav {
+    background-color:#76abd7;
+    text-align: left;
+    margin:1px;
+      }
+      
+    nav .logo{
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 5px;
+      }
+    nav ul {
+       list-style-type: none;
+       margin: 1px;
+       padding-top:1%;
+       padding-bottom: 1%;
+       margin-left: 110px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    nav ul li a {
+        color:white;
+        font-size:1.3em;
+        text-decoration: none; /*#чтобы не подчепкивалось*/
+  
+    }
+    nav ul li a:hover{
+        color:black;
+        }
+    nav ul li a:active{
+        color: Red;
+        }
+   main {
+    background-color: white;
+    padding: 30px;
+    vertical-align: top;
+    }
+    main h2{
+    color: black;
+    font-family:"Comic sans ms",Calibri,Arial,Verdana;
+    font-size: 2em;
+    margin: 0px;
+    }
+    main p{
+      color:black;
+      font-family: Verdana,Tahoma,Calibri,Arial;
+      font-size: 1em;
+      text-align: justify;
+    }
+      main ul li {
+      list-style-type: none;
+       }
+      .list{
+      color: #76abd7;
+      font-family: Arial,Calibri,Verdana;
+      font-size: 1.5em;
+      font-style: italic;
+      text-decoration: none;
+    }
+       .list2{
+      color: #76abd7;
+      font-family: Arial,Calibri,Verdana;
+      font-size: 1em;
+      font-style: italic;
+      text-decoration: none;
+       }
+      
+    main .citation{
+      color:#76abd7 ;
+      font-family: Arial,Calibri,Verdana;
+      font-size: 1.5em;
+      font-style: italic; 
+    }
+   
+    main .colonne{  
+      width:48%;
+      display: inline-block;
+      text-align: center;
+      vertical-align: top;
+      padding-top: 2%;
+      padding: 5px;
+    }
+    main .icon2{  
+      display: inline-block;
+ 
+    }
+   
+    main .moyen{
+      }
+      main figure {
+        margin: 0px;
+      }
+    main img {
+      width:435px;
+      height: 435px;
+    }
+    main .foto {
+      width:950px;
+      height: auto;
+    }
+    
+    main .colonne iframe{
+      width: 450px;
+      height: 253px;
+    }
+    footer{
+      background-color: #76abd7;
+      max-width: 940px;
+      margin: auto; 
+      padding: 10px;
+    }
+    footer .fin{
+      display: inline-block;
+      margin-left: 25px;
+      margin-right: 125px;
+  
+    }
+    footer ul{
+     list-style-type: none;
+       margin: 1px;
+       padding-top:1%;
+       padding-bottom: 1%;
+    }
+    footer ul li{
+       margin:  3px;
+
+    }
+    .sr li{
+      display: inline-block;
+       }
+       
+    .iconsy{
+      display: block;
+      background: url(../image/sprite.png) no-repeat;
+      width: 38px;
+      height: 38px;
+      
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+     }
+     
+     .in{
+      background-position: -38px 0;
+      }
+     .tw {
+      background-position: -76px 0;
+     }
+     .fb:hover{
+      background-position: 0 -38px;
+      }
+      .in:hover{
+      background-position: -38px -38px;
+      }
+      .tw:hover{
+      background-position: -76px -38px;
+      }
